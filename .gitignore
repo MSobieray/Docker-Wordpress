@@ -11,7 +11,8 @@ wordpress/uploads/
 wordpress/wp-cache-config.php
 wordpress/plugins/hello.php
 wordpress/plugins/index.php
-wordpress/plugins/askimet/
+wordpress/plugins/akismet/
 wordpress/themes/twenty*
 wordpress/themes/index.php
+wordpress/index.php
 

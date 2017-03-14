@@ -10,5 +10,8 @@ wordpress/upgrade/
 wordpress/uploads/
 wordpress/wp-cache-config.php
 wordpress/plugins/hello.php
+wordpress/plugins/index.php
+wordpress/plugins/askimet/
 wordpress/themes/twenty*
 wordpress/themes/index.php
+

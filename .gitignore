@@ -1,0 +1,14 @@
+### WordPress ###
+*.log
+wp-config.php
+wordpress/advanced-cache.php
+wordpress/backup-db/
+wordpress/backups/
+wordpress/blogs.dir/
+wordpress/cache/
+wordpress/upgrade/
+wordpress/uploads/
+wordpress/wp-cache-config.php
+wordpress/plugins/hello.php
+wordpress/themes/twenty*
+wordpress/themes/index.php

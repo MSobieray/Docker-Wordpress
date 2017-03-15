@@ -1,6 +1,10 @@
 version: '2'
 
 services:
+  mysql:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
   wordpress:
     image: wordpress
     volumes:
@@ -9,7 +13,4 @@ services:
       - 8080:80
     environment:
       WORDPRESS_DB_PASSWORD: admin
-  mysql:
-    image: mariadb
-    environment:
-      MYSQL_ROOT_PASSWORD: admin
+  

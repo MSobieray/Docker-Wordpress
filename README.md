@@ -17,6 +17,6 @@ The docker-compose.yml also maps the wp-content folder in the docker wordpress c
 
 ### Additional Info
 
-If you want to run the containers in detached mode you can run `docker-compose up -d` and this will not output the requests that are made to localhost:8080. You can then run `docker-compose stop` to gracefully shut down the containers.
+If you want to run the containers in detached mode you can run `docker-compose up -d` and this will not output the requests that are made to localhost:3000. You can then run `docker-compose stop` to gracefully shut down the containers.
 
 You can modify the docker-compose.yml to use any database you want and also map to any port. __If you are going to be running multiple sites at once you will want to have them running on different ports.__

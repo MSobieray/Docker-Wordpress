@@ -1,6 +1,5 @@
 ### WordPress ###
 *.log
-wp-config.php
 wordpress/advanced-cache.php
 wordpress/backup-db/
 wordpress/backups/

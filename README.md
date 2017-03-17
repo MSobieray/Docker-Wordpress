@@ -15,10 +15,6 @@ Once the images get pulled down and the containers are running it maps the port 
 
 The docker-compose.yml also maps the wp-content folder in the docker wordpress container to the wordpress folder in your working directory. 
 
-### Issues 
-
-The first time you run `docker-compose up` there is an issue with the containers getting linked. You can `Control-C` to gracefully shut down the containers and then re-run `docker-compose up` to get a successful link of the containers.
-
 ### Additional Info
 
 If you want to run the containers in detached mode you can run `docker-compose up -d` and this will not output the requests that are made to localhost:8080. You can then run `docker-compose stop` to gracefully shut down the containers.

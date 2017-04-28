@@ -16,7 +16,7 @@ services:
     ports:
       - 3000:80
     depends_on:
-      - "mysql"
+      - mysql
     environment:
       WORDPRESS_DB_PASSWORD: admin
   

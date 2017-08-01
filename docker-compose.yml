@@ -4,7 +4,7 @@ services:
   mysql:
     image: mariadb
     ports:
-      - 3307:3306
+      - 3306:3306
     environment:
       MYSQL_ROOT_PASSWORD: admin
   wordpress:
@@ -12,11 +12,9 @@ services:
     depends_on:
       - mysql
     volumes:
-      - ./wordpress/:/var/www/html/wp-content
+      - ./wp-content/:/var/www/html/wp-content
     ports:
       - 3000:80
-    depends_on:
-      - mysql
     environment:
       WORDPRESS_DB_PASSWORD: admin
   
